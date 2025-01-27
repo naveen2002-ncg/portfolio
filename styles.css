@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+    --primary-bg: #ffffff;
+    --primary-text: #000000;
+    --secondary-bg: #1e1e1e;
+    --secondary-text: #ffffff;
+    --accent-color: #ff4e05;
+    --transition-speed: 0.3s;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+    transition: background-color var(--transition-speed), color var(--transition-speed);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: var(--accent-color);
+    color: var(--secondary-text);
+}
+
+header {
+    text-align: center;
+    padding: 5rem 1rem;
+    background: linear-gradient(135deg, var(--accent-color), var(--primary-bg));
+    color: var(--secondary-text);
+}
+
+header h1 span {
+    color: var(--primary-text);
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+.projects {
+    padding: 2rem;
+}
+
+.projects h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.filter-btn {
+    padding: 0.5rem 1rem;
+    background: var(--accent-color);
+    border: none;
+    border-radius: 5px;
+    color: var(--secondary-text);
+    cursor: pointer;
+    transition: background-color var(--transition-speed);
+}
+
+.filter-btn:hover {
+    background: var(--primary-text);
+    color: var(--secondary-bg);
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.project {
+    padding: 1rem;
+    background: var(--primary-text);
+    color: var(--secondary-text);
+    border-radius: 5px;
+    text-align: center;
+    transition: transform var(--transition-speed);
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    padding: 0.5rem 1rem;
+    background: var(--accent-color);
+    color: var(--secondary-text);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    z-index: 1000;
+}
+
+.theme-toggle {
+    cursor: pointer;
+}
+
+.dark-theme {
+    --primary-bg: #1e1e1e;
+    --primary-text: #ffffff;
+    --secondary-bg: #ffffff;
+    --secondary-text: #000000;
+}
