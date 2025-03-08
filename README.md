@@ -5,7 +5,6 @@ Welcome to my portfolio repository. This repository contains all the projects an
 ## Table of Contents
 - [Introduction](#introduction)
 - [Technologies Used](#technologies-used)
-- [Projects](#projects)
 - [Getting Started](#getting-started)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -25,26 +24,6 @@ This portfolio showcases the projects I have worked on, demonstrating my skills 
 - Express.js
 - MongoDB
 - Git
-
-## Projects
-
-### Project 1: [Project Name]
-- **Description**: Brief description of the project.
-- **Technologies Used**: List of technologies used in the project.
-- **Features**: Key features of the project.
-- **Screenshots**: ![Screenshot](screenshot-url)
-- **Link**: [Live Demo](http://example.com)
-- **Future Improvements**: Planned enhancements or features.
-- **Challenges and Solutions**: Describe any challenges faced and how they were overcome.
-
-### Project 2: [Project Name]
-- **Description**: Brief description of the project.
-- **Technologies Used**: List of technologies used in the project.
-- **Features**: Key features of the project.
-- **Screenshots**: ![Screenshot](screenshot-url)
-- **Link**: [Live Demo](http://example.com)
-- **Future Improvements**: Planned enhancements or features.
-- **Challenges and Solutions**: Describe any challenges faced and how they were overcome.
 
 ## Getting Started
 To get a local copy of this repository up and running, follow these steps.
@@ -90,11 +69,7 @@ Contributions are what make the open-source community such an amazing place to l
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
 
-## Acknowledgments
-- [Resource Name](resource-url) - Description of how this resource helped.
-- [Library Name](library-url) - Description of how this library was used.
-
 ## Contact
-Naveen - [@your_twitter](https://twitter.com/your_twitter) - your_email@example.com
+Naveen  - naveencg81500@gmail.com
 
 Project Link: [https://github.com/naveen2002-ncg/portfolio](https://github.com/naveen2002-ncg/portfolio)
